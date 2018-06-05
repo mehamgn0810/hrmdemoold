@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="com.orangehrm.hrmdemo.Test1" duration-ms="11865" started-at="2018-06-04T18:22:33Z" finished-at="2018-06-04T18:22:45Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="11865" started-at="2018-06-04T18:22:33Z" finished-at="2018-06-04T18:22:45Z">
+      <class name="com.orangehrm.hrmdemo.Test1">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.orangehrm.hrmdemo.Test1@6442b0a6]" name="beforeClass" is-config="true" duration-ms="4540" started-at="2018-06-04T23:52:33Z" finished-at="2018-06-04T23:52:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.orangehrm.hrmdemo.Test1@6442b0a6]" name="beforeMethod" is-config="true" duration-ms="10" started-at="2018-06-04T23:52:37Z" finished-at="2018-06-04T23:52:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.orangehrm.hrmdemo.Test1.login() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.orangehrm.hrmdemo.Test1@6442b0a6]" name="login" duration-ms="6896" started-at="2018-06-04T23:52:37Z" finished-at="2018-06-04T23:52:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.orangehrm.hrmdemo.Test1@6442b0a6]" name="afterMethod" is-config="true" duration-ms="335" started-at="2018-06-04T23:52:44Z" finished-at="2018-06-04T23:52:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.orangehrm.hrmdemo.Test1@6442b0a6]" name="afterClass" is-config="true" duration-ms="55" started-at="2018-06-04T23:52:45Z" finished-at="2018-06-04T23:52:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.orangehrm.hrmdemo.Test1 -->
+    </test> <!-- Command line test -->
+  </suite> <!-- com.orangehrm.hrmdemo.Test1 -->
+</testng-results>

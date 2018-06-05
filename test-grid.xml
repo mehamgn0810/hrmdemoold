@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Grid Test" parallel="tests">
+	<test name="Chrome Test">
+		<parameter name="browser" value="chrome" />
+		<parameter name="version" value="66.0.3359.181" />
+		<parameter name="platform" value="LINUX" />
+		<classes>
+			<class name="com.orangehrm.hrmdemo.Test1" />
+		</classes>
+	</test>
+	<test name="Firefox Test">
+		<parameter name="browser" value="firefox" />
+		<parameter name="version" value="60.0.1" />
+		<parameter name="platform" value="LINUX" />
+		<classes>
+			<class name="com.orangehrm.hrmdemo.Test1" />
+		</classes>
+	</test>
+</suite>

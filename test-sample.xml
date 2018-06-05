@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Functional Suite">
+	<listeners>
+		<listener class-name="listeners.CustomListeners" />
+	</listeners>
+	<test name="Login Test">
+		<classes>
+			<class name="com.orangehrm.hrmdemo.Test1" />
+		</classes>
+	</test>
+</suite>
